@@ -13,6 +13,7 @@ def longestCommonSubsequence(str1, str2) -> int:
             else:
                 dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
 
+    # python的语法表示最后一个元素，java没该语法
     return dp[-1][-1]
 
 
