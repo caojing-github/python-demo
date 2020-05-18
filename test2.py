@@ -1,4 +1,4 @@
-# https://labuladong.gitbook.io/algo/dong-tai-gui-hua-xi-lie/gao-lou-reng-ji-dan-wen-ti
+# 高楼扔鸡蛋 https://labuladong.gitbook.io/algo/dong-tai-gui-hua-xi-lie/gao-lou-reng-ji-dan-wen-ti
 def superEggDrop(K: int, N: int) -> int:
     memo = dict()
 
@@ -40,3 +40,13 @@ def superEggDrop(K: int, N: int) -> int:
 # 直接调用方法
 if __name__ == '__main__':
     print(superEggDrop(2, 10))
+    print(superEggDrop(2, 11))
+    print(superEggDrop(2, 12))
+    print(superEggDrop(2, 13))
+    print(superEggDrop(2, 14))
+    print(superEggDrop(2, 15))
+    print(superEggDrop(2, 16))
+    print(superEggDrop(2, 17))
+    print(superEggDrop(2, 18))
+    print(superEggDrop(2, 19))
+    print(superEggDrop(2, 20))
